@@ -1,0 +1,25 @@
+body{
+    font-family: 'Franklin Gothic white', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    background-color: #141519
+}
+
+.SuggestionBox{
+    background-color: #1E252F;
+}
+
+img + p{
+    font-size: 2.5em;
+}
+
+.SuggestionScore {
+    display: flex;
+}
+
+li > ul{
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 75%;
+    background-color: #181F29;
+}
