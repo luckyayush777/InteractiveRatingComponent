@@ -12,6 +12,7 @@ body{
 .SuggestionBox{
     display: inline-block;
     background-color: #1E252F; 
+    padding : 40px 40px 40px 40px;
 }
 
 img + p{
@@ -20,14 +21,20 @@ img + p{
 
 .SuggestionScore {
     display: flex;
-
+    justify-content: space-around;
 }
 
 li > ul{
     align-items: center;
-
-    height: 40px;
+    border-radius: 50%;
     width: 40px;
-    border-radius: 75%;
+    height: 40px;
+    padding : 20px 0px 0px 30px;
     background-color: #181F29;
+}
+
+.ScoreSubmitButton{
+    background-color: #FB7610;
+    font-size: 1.5em;
+    padding: 0% 0% 0% 40%;
 }
