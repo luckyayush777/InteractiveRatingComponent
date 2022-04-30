@@ -1,11 +1,17 @@
 body{
     font-family: 'Franklin Gothic white', 'Arial Narrow', Arial, sans-serif;
     color: white;
-    background-color: #141519
+    background-color: #141519;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+    border-radius: 20;
 }
 
 .SuggestionBox{
-    background-color: #1E252F;
+    display: inline-block;
+    background-color: #1E252F; 
 }
 
 img + p{
@@ -14,10 +20,12 @@ img + p{
 
 .SuggestionScore {
     display: flex;
+
 }
 
 li > ul{
     align-items: center;
+
     height: 40px;
     width: 40px;
     border-radius: 75%;
