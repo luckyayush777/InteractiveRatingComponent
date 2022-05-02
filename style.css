@@ -25,11 +25,13 @@ img + p{
 }
 
 .SuggestionScore {
+    padding-left: 0px;
     display: flex;
     justify-content: space-evenly;
 }
 
-li > ul{
+ul > li{
+    list-style-type: none;
     align-items: center;
     border-radius: 50%;
     width: 40px;
@@ -39,7 +41,7 @@ li > ul{
     color: whitesmoke;
 }
 
-li > ul:hover {
+.hoverable:hover{
     background-color: green;
 }
 
