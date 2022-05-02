@@ -39,6 +39,10 @@ li > ul{
     color: whitesmoke;
 }
 
+li > ul:hover {
+    background-color: green;
+}
+
 .ScoreSubmitButton{
     background-color: #FB7610;
     font-size: 1.5em;
@@ -46,4 +50,8 @@ li > ul{
     border-radius: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+
+.ScoreSubmitButton:hover{
+    background-color: #66fb10;
 }
