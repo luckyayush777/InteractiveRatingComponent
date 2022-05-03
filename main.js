@@ -20,8 +20,14 @@ for(let element of listElements)
     })
 }
 console.log(clickedScore);
-
-let submitButton = document.getElementsByClassName("ScoreSubmitButton");
+let textContent = document.getElementsByClassName("SuggestionBox")[0];
+text = "Thank you!";
+let submitButton = document.getElementsByClassName("ScoreSubmitButton")[0];
 submitButton.addEventListener("click", function(){
-    
-})
+    //text.style.fontFamily = 'Franklin Gothic white', 'Arial Narrow', Arial, sans-serif;
+    if(hasButtonBeenClicked){
+    textContent.style.fontFamily = "'Franklin Gothic white', 'Arial Narrow', Arial, sans-serif";
+    textContent.style.backgroundColor = "rgb(36, 42, 60)";
+    textContent.innerHTML = text;
+    }
+})  
